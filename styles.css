@@ -1,0 +1,54 @@
+/* Same styles as before */
+
+/* Additional styling for the quiz and voice detection sections */
+#quiz {
+    background-color: #eaf0f1;
+    padding: 40px 0;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #f39c12;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e67e22;
+}
+
+#voice-detection button {
+    background-color: #2d3e50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#voice-detection button:hover {
+    background-color: #1a242f;
+}
+
+#voice-result {
+    margin-top: 20px;
+    font-size: 18px;
+}

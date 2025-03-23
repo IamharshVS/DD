@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depression Detection through Machine Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Depression Detection through Machine Learning</h1>
+            <p>Presented By: Harshvardhan Singh</p>
+            <p>Institution: Manav Rachna International Institute of Research and Studies</p>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p><strong>What is Depression?</strong></p>
+            <p>Depression is a common mental health disorder that causes persistent sadness and loss of interest. It impacts millions worldwide, significantly disrupting daily life.</p>
+            <p><strong>The Importance of Early Detection:</strong></p>
+            <ul>
+                <li><strong>Benefits:</strong> Early detection improves treatment, reduces severity, cuts healthcare costs, and enhances awareness.</li>
+                <li><strong>Challenges:</strong> Misdiagnosis risks, patient anxiety, high resource demands, and data privacy concerns.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <div class="container">
+            <h2>Depression Detection Quiz</h2>
+            <p>Please answer the following questions to assess potential depression symptoms.</p>
+            
+            <form id="depression-quiz">
+                <label for="q1">1. Over the last two weeks, how often have you felt little interest or pleasure in doing things?</label>
+                <select id="q1">
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+
+                <label for="q2">2. Over the last two weeks, how often have you felt down, depressed, or hopeless?</label>
+                <select id="q2">
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+
+                <label for="q3">3. Over the last two weeks, how often have you had trouble falling asleep, staying asleep, or sleeping too much?</label>
+                <select id="q3">
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+
+                <label for="q4">4. Over the last two weeks, how often have you felt tired or had little energy?</label>
+                <select id="q4">
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+
+                <label for="q5">5. Over the last two weeks, how often have you felt bad about yourself, or that you are a failure, or have let yourself or your family down?</label>
+                <select id="q5">
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+
+                <button type="submit">Submit Quiz</button>
+            </form>
+
+            <div id="quiz-result" style="display:none;">
+                <h3>Your Depression Assessment Result:</h3>
+                <p id="result-text"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="voice-detection">
+        <div class="container">
+            <h2>Depression Detection Through Voice</h2>
+            <button id="start-recording">Start Voice Recording</button>
+            <p id="voice-result" style="display:none;">Analyzing voice...</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3>Conclusion</h3>
+            <p>The presentation highlights the growing need for efficient depression detection methods through machine learning, aiming to increase awareness and provide better care for individuals suffering from depression.</p>
+            <p>Thank you for your attention!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
